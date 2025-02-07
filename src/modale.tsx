@@ -1,6 +1,5 @@
 import * as React from "react";
-import "./modale.scss";
-import propTypes from "prop-types";
+import "./modale.css";
 
 interface ModaleProps {
     title: string;
@@ -31,10 +30,3 @@ export function Modale({title, content, onClose, error}: ModaleProps) {
         </div>
     );
 }
-
-Modale.propTypes = {
-    title: propTypes.string.isRequired,
-    content: propTypes.string.isRequired,
-    onClose: propTypes.func.isRequired,
-    error: propTypes.bool,
-};

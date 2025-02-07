@@ -1,2 +1,2 @@
-import "./modale.scss";
+import "./modale.css";
 export { Modale } from "./modale";

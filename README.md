@@ -7,13 +7,13 @@ This repository was created as part of a guide to publishing TypeScript React co
 Install this package:
 
 ```shell
-npm add typescript-components-by-rupert
+npm install modale-opc-p14
 ```
 
-Import the Counter component:
+Import the Modale component:
 
 ```js
-import { Counter } from "typescript-components-by-rupert";
+import { Modale } from "modale-opc-p14";
 ```
 
-You can then render the `Counter` component like any other React component in JSX.
+You can then render the `Modale` component like any other React component in JSX.
