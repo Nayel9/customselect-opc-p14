@@ -7,13 +7,13 @@ This repository was created as part of a guide to publishing TypeScript React co
 Install this package:
 
 ```shell
-npm install modale-opc-p14
+npm install customselect-opc-p14
 ```
 
-Import the Modale component:
+Import the Select component:
 
 ```js
-import { Modale } from "modale-opc-p14";
+import { CustomSelect } from "customselect-opc-p14";
 ```
 
-You can then render the `Modale` component like any other React component in JSX.
+You can then render the `Select` component like any other React component in JSX.

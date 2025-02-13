@@ -1,2 +1,1 @@
-import "./modale.css";
-export { Modale } from "./modale";
+export { CustomSelect } from "./CustomSelect";
