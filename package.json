@@ -1,6 +1,6 @@
 {
   "name": "customselect-opc-p14",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple customisable select component",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "clean": "del /s /q dist",
-    "build": "yarn clean && tsc && xcopy package.json dist /Y && xcopy README.md dist /Y && sass src/modale.scss dist/modale.css"
+    "build": "yarn clean && tsc && xcopy package.json dist /Y && xcopy README.md dist /Y"
   },
   "repository": {
     "type": "git",
