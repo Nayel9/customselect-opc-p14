@@ -6,10 +6,10 @@ interface CustomSelectProps {
     required: boolean;
     options: { value: string; label: string }[];
     defaultOption: string;
-    onChange: (e: React.ChangeEvent<HTMLSelectElement>) => void;
+    onChange: (event: React.ChangeEvent<HTMLSelectElement>) => void;
 }
 
-export function CustomSelect({ name, id, required, options, defaultOption, onChange }: CustomSelectProps) {
+export function CustomSelect({name, id, required, options, defaultOption, onChange}: CustomSelectProps) {
     return (
         <select name={name} id={id} required={required} onChange={onChange}>
             <option value="">{defaultOption}</option>

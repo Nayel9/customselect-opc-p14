@@ -1,6 +1,6 @@
 {
   "name": "customselect-opc-p14",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple customisable select component",
   "main": "dist/index.js",
   "module": "dist/index.js",
