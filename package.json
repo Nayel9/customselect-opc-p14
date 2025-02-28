@@ -1,7 +1,7 @@
 {
   "name": "customselect-opc-p14",
-  "version": "1.0.6",
-  "description": "A simple customisable select component",
+  "version": "1.0.7",
+  "description": "A simple customisable select component, built with React and TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/CustomSelect.d.ts",
@@ -21,7 +21,12 @@
   },
   "keywords": [
     "react",
-    "typescript"
+    "typescript",
+    "custom-select",
+    "react-component",
+    "dropdown",
+    "customizable",
+    "select"
   ],
   "author": {
     "name": "Nayel",
